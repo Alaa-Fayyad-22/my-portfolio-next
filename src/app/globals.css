@@ -1,8 +1,6 @@
-@tailwind base;
-/* stylelint-disable-next-line at-rule-no-unknown */
-@tailwind components;
-/* stylelint-disable-next-line at-rule-no-unknown */
-@tailwind utilities;
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+img, video { max-width: 100%; display: block; }
+input, button, textarea, select { font: inherit; }
 
 /* ── Smooth scroll — placed AFTER tailwind base so it isn't reset ── */
 html {
