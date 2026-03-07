@@ -147,7 +147,7 @@ export default function Hero() {
         </div>
 
         {/* 7 — Stats */}
-        <div className="hero-item" style={{
+        {/* <div className="hero-item" style={{
           display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
           gap: '16px 48px', marginBottom: 48,
         }}>
@@ -161,7 +161,7 @@ export default function Hero() {
                 color: 'var(--text-muted)', ...ar }}>{s.label}</div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* 8 — Socials */}
         <div className="hero-item" style={{

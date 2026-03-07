@@ -74,7 +74,7 @@ export default function About() {
                 </div>
               </div>
               {/* Badge: projects */}
-              <div style={{ position: 'absolute', top: -8, left: -8, padding: '8px 14px',
+              {/* <div style={{ position: 'absolute', top: -8, left: -8, padding: '8px 14px',
                 borderRadius: 14, background: 'var(--surface)', border: '1px solid var(--border)',
                 textAlign: 'center' }}>
                 <div className="gradient-text" style={{ fontFamily: 'Syne, sans-serif',
@@ -82,7 +82,18 @@ export default function About() {
                 <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', ...ar }}>
                   {isRTL ? 'مشروع' : 'Projects'}
                 </div>
-              </div>
+              </div> */}
+
+              {/* Badge: technologies */}
+<div style={{ position: 'absolute', top: -8, left: -8, padding: '8px 14px',
+  borderRadius: 14, background: 'var(--surface)', border: '1px solid var(--border)',
+  textAlign: 'center' }}>
+  <div className="gradient-text" style={{ fontFamily: 'Syne, sans-serif',
+    fontWeight: 800, fontSize: '1.4rem' }}>10+</div>
+  <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', ...ar }}>
+    {isRTL ? 'تقنية' : 'Technologies'}
+  </div>
+</div>
             </div>
           </div>
 
