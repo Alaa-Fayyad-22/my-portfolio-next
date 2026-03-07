@@ -65,12 +65,12 @@ export default function Contact() {
     : ['Web App','Mobile App','Dashboard','E-commerce','UI/UX Design','Other'];
 
   const budgets = isRTL
-    ? ['أقل من $500','$500 - $1,000','$1,000 - $3,000','$3,000 - $5,000','أكثر من $5,000']
-    : ['Under $500','$500 - $1,000','$1,000 - $3,000','$3,000 - $5,000','$5,000+'];
+    ?  ['أقل من $200', '$200 - $300', '$400 - $800', '$800 - $1,000', '$1,000+']
+    : ['Under $200', '$200 - $300', '$400 - $800', '$800 - $1,000', '$1,000+'];
 
   const timelines = isRTL
-    ? ['أقل من أسبوعين','شهر','1-3 أشهر','3-6 أشهر','مرن']
-    : ['Under 2 weeks','1 month','1-3 months','3-6 months','Flexible'];
+    ? ['أقل من 3 أسابيع','شهر','1-3 أشهر','3-6 أشهر','مرن']
+    : ['Under 3 weeks','1 month','1-3 months','3-6 months','Flexible'];
 
   return (
     <section id="contact" ref={ref} dir={isRTL ? 'rtl' : 'ltr'}
@@ -182,7 +182,7 @@ export default function Contact() {
                 { Icon: FaWhatsapp, href: 'https://wa.me/9613748496', label: 'WhatsApp' },
                 { Icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
                 { Icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-                { Icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
+                { Icon: FaGithub, href: 'http://github.com/Alaa-Fayyad-22', label: 'GitHub' },
               ].map(({ Icon, href, label }) => (
                 <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
                   style={{ width: 42, height: 42, borderRadius: '50%',

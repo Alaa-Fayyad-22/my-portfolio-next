@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from '../hooks/useTranslation';
 import { ArrowDown, Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
-const ROLES = ['role1', 'role2', 'role3'] as const;
+const ROLES = ['role1', 'role2', 'role3', 'role4', 'role5'] as const;
 
 export default function Hero() {
   const { t, isRTL } = useTranslation();
@@ -168,7 +168,7 @@ export default function Hero() {
           display: 'flex', gap: 12, justifyContent: 'center',
         }}>
           {([
-            { Icon: Github,   href: 'https://github.com',       label: 'GitHub'   },
+            { Icon: Github,   href: 'http://github.com/Alaa-Fayyad-22',       label: 'GitHub'   },
             { Icon: Linkedin, href: 'https://linkedin.com',     label: 'LinkedIn' },
             { Icon: Twitter,  href: 'https://twitter.com',      label: 'Twitter'  },
             { Icon: Mail,     href: 'mailto:hello@example.com', label: 'Email'    },

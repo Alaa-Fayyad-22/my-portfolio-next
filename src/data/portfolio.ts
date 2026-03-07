@@ -37,7 +37,7 @@ export const projects = [
     tags: ["React Native", "Node.js", "PostgreSQL", "JWT", "Plaid API"],
     category: "mobile",
     live: "https://demo.example.com",
-    github: "https://github.com",
+    github: "http://github.com/Alaa-Fayyad-22",
     featured: true,
     color: "from-emerald-500 to-teal-500"
   },
@@ -51,7 +51,7 @@ export const projects = [
     tags: ["Next.js", "Prisma", "MySQL", "Socket.io", "Tailwind"],
     category: "web",
     live: "https://demo.example.com",
-    github: "https://github.com",
+    github: "http://github.com/Alaa-Fayyad-22",
     featured: false,
     color: "from-orange-500 to-red-500"
   },
