@@ -180,8 +180,8 @@ export default function Contact() {
             <div style={{ display: 'flex', gap: 10 }}>
               {[
                 { Icon: FaWhatsapp, href: 'https://wa.me/9613748496', label: 'WhatsApp' },
-                { Icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
-                { Icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+                // { Icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
+                { Icon: FaLinkedin, href: 'https://www.linkedin.com/in/alaa-fayyad', label: 'LinkedIn' },
                 { Icon: FaGithub, href: 'http://github.com/Alaa-Fayyad-22', label: 'GitHub' },
               ].map(({ Icon, href, label }) => (
                 <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}

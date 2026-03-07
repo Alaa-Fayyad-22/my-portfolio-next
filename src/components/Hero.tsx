@@ -169,9 +169,9 @@ export default function Hero() {
         }}>
           {([
             { Icon: Github,   href: 'http://github.com/Alaa-Fayyad-22',       label: 'GitHub'   },
-            { Icon: Linkedin, href: 'https://linkedin.com',     label: 'LinkedIn' },
-            { Icon: Twitter,  href: 'https://twitter.com',      label: 'Twitter'  },
-            { Icon: Mail,     href: 'mailto:hello@example.com', label: 'Email'    },
+            { Icon: Linkedin, href: 'https://www.linkedin.com/in/alaa-fayyad',     label: 'LinkedIn' },
+            // { Icon: Twitter,  href: 'https://twitter.com',      label: 'Twitter'  },
+            { Icon: Mail,     href: 'mailto:alaafayyadp1@gmail.com', label: 'Email'    },
           ] as const).map(({ Icon, href, label }) => (
             <a key={label} href={href} target="_blank" rel="noopener noreferrer"
               aria-label={label}
